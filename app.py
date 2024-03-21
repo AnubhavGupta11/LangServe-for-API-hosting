@@ -5,6 +5,7 @@ from langserve import add_routes
 import uvicorn
 import os
 
+
 os.environ['OPENAI_API_KEY']=os.getenv("OPENAI_API_KEY")
 
 app=FastAPI(
